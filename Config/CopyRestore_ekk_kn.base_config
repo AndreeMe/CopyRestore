@@ -1,0 +1,27 @@
+﻿{
+	"Общие параметры": {
+		"EXE1CV8": "C:\\Program Files\\1cv8\\8.3.15.1565\\bin\\1cv8.exe",
+		"OSCRIPT": "C:\\Program Files (x86)\\OneScript\\bin\\oscript.exe",
+		"FileBackup": "\\\\srv1c-test-spb2\\Backup\\baza.bak",
+		"Main_os": "E:\\1script\\CopyRestore\\src\\CopyBase.os",
+		"Script_Restore": "E:\\1script\\CopyRestore\\Restore_ekk_kn.sql"
+	},
+	"Параметры базы-приемника": {
+		"Current_Base.Connect": "Srvr=\"srv1c-test-spb2\";Ref=\"kartaplavkitest_kn\";",
+		"Current_SQL.UseRestore": true,
+		"Current_SQL.Base": "kartaplavkitest_kn",
+		"Current_SQL.Server": "srv1c-test-spb2",
+		"Current_SQL.DelBackup": true,
+		"Current_Base.Password": "151407",
+		"Current_Repo.Blind": false,
+		"Current_Repo.Connect": "tcp://dks-9/erp",
+		"Current_Repo.User": "Микаилов",
+		"Current_Repo.Password": "",
+		"Current_Repo.UpdateCfg": true
+	},
+	"Параметры базы-источника": {
+		"Source_SQL.Base": "karta_plavki",
+		"Source_SQL.Server": "srvdb-spb11",
+		"Source_SQL.UseBackup": true
+	}
+}
