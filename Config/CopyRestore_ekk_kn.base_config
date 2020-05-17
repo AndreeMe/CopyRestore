@@ -21,7 +21,7 @@
 	},
 	"Параметры базы-источника": {
 		"Source_SQL.Base": "karta_plavki",
-		"Source_SQL.Server": "srvdb-spb11",
+		"Source_SQL.Server": "srvdb-spb11", 
 		"Source_SQL.UseBackup": true
 	}
 }
